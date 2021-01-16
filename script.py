@@ -436,7 +436,7 @@ wName = "select ROIS"
 image_m = cv2.imread("1.png", -1)
 image = cv2.resize(image_m,(800,600))
 original = image.copy()
-imageWidth, imageHeight = image.shape[:2]
+imageHeight,imageWidth = image.shape[:2]
 init(rectI, image, wName, imageWidth, imageHeight)
 
 cv2.namedWindow(rectI.wname)
