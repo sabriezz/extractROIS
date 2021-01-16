@@ -1,5 +1,5 @@
 # extractROIS
-extract multiple ROIs from an image
+extract multiple ROIs from an image using openCV
 
 ## Usage
 Double Click to select ROI <br>
