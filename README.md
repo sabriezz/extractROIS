@@ -1,13 +1,15 @@
 # extractROIS
 extract multiple ROIs from an image
 
-Double Click to select ROI
-press q to quit selection
-press c to clear selection
+## Usage
+Double Click to select ROI <br>
+press q to quit selection <br>
+press c to clear selection <br>
 
-Output is stored in ref[] array
-Data in ref[] are stored in pairs.
+## Output
+Output is stored in ref[] array <br>
+Data in ref[] are stored in pairs <br>
 
-example:
+Example <br>
 [(233, 97), (474, 434)] -> Is one ROI [(x1,y1), (x2,y2)]
 
